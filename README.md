@@ -1,7 +1,26 @@
 # Jogo da Forca
 
-Aplicação desenvolvida em JavaScript para recriar o clássico jogo da forca. O objetivo é adivinhar a palavra secreta por meio de tentativas de letras, enquanto o jogo acompanha os acertos e erros do jogador.
+Versão do jogo da forca desenvolvida com HTML, CSS e JavaScript. O objetivo é descobrir a palavra secreta antes que as oito chances acabem.
 
-O projeto foi construído utilizando HTML, CSS e JavaScript, com foco na prática de manipulação do DOM, lógica de programação, eventos e interação com o usuário. A aplicação atualiza dinamicamente a interface conforme as ações do jogador, proporcionando uma experiência simples e intuitiva.
+## Funcionalidades
 
-Este projeto foi desenvolvido com o objetivo de consolidar conceitos fundamentais do desenvolvimento web, como organização de código, manipulação de elementos da página e implementação de regras de negócio utilizando JavaScript puro.
+- Escolha aleatória de uma palavra
+- Tentativas por letra, usando o botão ou a tecla Enter
+- Exibição das letras já utilizadas
+- Atualização das chances e da imagem da forca
+- Nova partida após vitória ou derrota
+
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+
+## Como executar
+
+```bash
+git clone https://github.com/Pietro-tms/Jogo-da-Forca.git
+cd Jogo-da-Forca
+```
+
+Abra o projeto com um servidor local, como o **Live Server**, e acesse o endereço exibido no navegador.
